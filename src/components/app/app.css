@@ -1,0 +1,44 @@
+html,
+body {
+	height: 100%;
+}
+#root {
+	height: 100%;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 100%;
+	height: 100%;
+}
+
+.form {
+	padding: 20px;
+	> * {
+		font-size: medium;
+		margin-top: 10px;
+	}
+}
+.field {
+	> * {
+		width: 100%;
+		border: 1px solid #ccc;
+		padding: 10px;
+	}
+	> input {
+		font-size: 16px;
+	}
+	> textarea {
+		font-size: 17px;
+		resize: vertical;
+	}
+}
+.label {
+	display: flex;
+	justify-content: space-between;
+}
+.delete {
+	color: red;
+	font-weight: bolder;
+	cursor: pointer;
+}
