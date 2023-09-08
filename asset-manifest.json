@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dyna-form/static/css/main.ab782b2a.css",
+    "main.js": "/dyna-form/static/js/main.57da01fd.js",
+    "index.html": "/dyna-form/index.html",
+    "main.ab782b2a.css.map": "/dyna-form/static/css/main.ab782b2a.css.map",
+    "main.57da01fd.js.map": "/dyna-form/static/js/main.57da01fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab782b2a.css",
+    "static/js/main.57da01fd.js"
+  ]
+}
