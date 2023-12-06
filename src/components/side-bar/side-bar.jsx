@@ -18,6 +18,7 @@ const SideBar = ({ addElement, setFormReadOnly }) => {
 	return (
 		<div className="sideBar">
 			<input
+				id="search"
 				type="text"
 				placeholder="Search field(s)"
 				readOnly

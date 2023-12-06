@@ -1,6 +1,6 @@
 const sideBarMenu = [
 	{
-		title: "Basic",
+		title: "Add basic field",
 		buttons: [
 			{
 				icon: (
@@ -121,7 +121,7 @@ const sideBarMenu = [
 		],
 	},
 	{
-		title: "Advanced",
+		title: "Add advanced field",
 		buttons: [
 			{
 				icon: (
@@ -227,15 +227,11 @@ const sideBarMenu = [
 		],
 	},
 	{
-		title: "Layout",
+		title: "Edit fields & content",
 		buttons: [],
 	},
 	{
-		title: "Data",
-		buttons: [],
-	},
-	{
-		title: "Premium",
+		title: "Data to export",
 		buttons: [],
 	},
 ];

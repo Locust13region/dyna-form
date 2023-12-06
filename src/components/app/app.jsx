@@ -15,11 +15,9 @@ function App() {
 		setFormContent(content);
 	};
 	const saveElementValue = (index, value) => {
-		if (value) {
-			const content = [...formContent];
-			content[index].value = value;
-			setFormContent(content);
-		}
+		const content = [...formContent];
+		content[index].value = value;
+		setFormContent(content);
 	};
 	const deleteElement = (index) => {
 		const content = [...formContent];
